@@ -1829,8 +1829,11 @@ if { $IMPL_MEM2REG==1 } {
 #IU defines   
 
 if { $SR_EPH_DEF==1 } {
- puts $f {`define OR1200_SR_EPH_DEF }
+ puts $f {`define OR1200_SR_EPH_DEF 1'b1}
+} else {
+ puts $f {`define OR1200_SR_EPH_DEF 1'b0}
 }
+
 if { $IMPL_ADDC==1 } {
  puts $f {`define OR1200_IMPL_ADDC } 
 }
