@@ -1877,7 +1877,7 @@ if { $DU_IMPLEMENTED==1 } {
 if { $DU_HWBKPTS==1 } {
  puts $f {`define OR1200_DU_HWBKPTS }
 }
-if { $DU_TB_IMPLEMENTED==1 } {
+if { $DU_TB_IMPLEMENTED==1 && $ASIC==0 && $targetFPGA=="XILINX_RAMB4" } {
  puts $f {`define OR1200_DU_TB_IMPLEMENTED }
 }
 if { $DU_READREGS==1 } {
