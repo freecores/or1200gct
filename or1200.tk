@@ -41,6 +41,9 @@
 #// CVS Revision History
 #//
 #// $Log: not supported by cvs2svn $
+#// Revision 1.4  2004/10/19 08:23:37  jcastillo
+#// Flash prefix generation corrected
+#//
 #// Revision 1.1.1.1  2004/09/23 10:03:08  jcastillo
 #// First import
 #//
@@ -367,9 +370,9 @@ proc about { } {
  frame .dabout.bot -relief raised -bd 1
  pack .dabout.bot -side bottom -fill both
  
- message .dabout.top.msg -width 5i -font -Adobe-Times-Medium-R-Normal-*-180-* -text "OpenRisc 1200 graphic configuration tool"
- message .dabout.top.msg2 -width 5i -font -Adobe-Times-Medium-R-Normal-*-180-* -text "jcastillo@opensocdesign.com"
- message .dabout.top.msg3 -width 5i -font -Adobe-Times-Medium-R-Normal-*-180-* -text "Version 0.1"
+ message .dabout.top.msg -width 8i -text "OpenRisc 1200 graphic configuration tool"
+ message .dabout.top.msg2 -width 8i -text "jcastillo@opensocdesign.com"
+ message .dabout.top.msg3 -width 8i -text "Version 0.1.2"
  pack .dabout.top.msg .dabout.top.msg2 .dabout.top.msg3 -side top -expand 1 -fill both -padx 3m -pady 3m
   
 }
