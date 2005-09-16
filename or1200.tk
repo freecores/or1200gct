@@ -41,6 +41,10 @@
 #// CVS Revision History
 #//
 #// $Log: not supported by cvs2svn $
+#// Revision 1.5  2004/10/19 08:34:23  jcastillo
+#// About window works in Windows
+#// Version 0.1.2
+#//
 #// Revision 1.4  2004/10/19 08:23:37  jcastillo
 #// Flash prefix generation corrected
 #//
@@ -371,7 +375,7 @@ proc about { } {
  pack .dabout.bot -side bottom -fill both
  
  message .dabout.top.msg -width 8i -text "OpenRisc 1200 graphic configuration tool"
- message .dabout.top.msg2 -width 8i -text "jcastillo@opensocdesign.com"
+ message .dabout.top.msg2 -width 8i -text "javier.castillo@urjc.es"
  message .dabout.top.msg3 -width 8i -text "Version 0.1.2"
  pack .dabout.top.msg .dabout.top.msg2 .dabout.top.msg3 -side top -expand 1 -fill both -padx 3m -pady 3m
   

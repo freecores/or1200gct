@@ -9,4 +9,4 @@ $ make xconfig
 
 The tool will generate a file called or1200_config.v with the selected configuration.
 
-Please, be free of send comments, bugs, or contributions to jcastillo@opensocdesign.com
+Please, be free of send comments, bugs, or contributions to javier.castillo@urjc.es
